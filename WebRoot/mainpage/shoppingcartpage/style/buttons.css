@@ -1,0 +1,5 @@
+.s_b1{background-color: #2b92d4;border: 1px solid #2b92d4;color: white;font-size: 16px;}
+.s_b1:hover{cursor: pointer;background-color: #24c;border: 1px solid #24c;}
+.s_b2{background-color: red;border: 1px solid red;color: white;font-size: 16px;outline: none;}
+.s_b2:hover{cursor: pointer;background-color: white;border: 1px solid red;color: red;}
+

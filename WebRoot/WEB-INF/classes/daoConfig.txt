@@ -1,0 +1,5 @@
+user=root
+password=a47721a.
+driver=com.mysql.jdbc.Driver
+url=jdbc:mysql://119.29.207.188:3306/newshop
+daoDriver=domarvel.cn.mysql.dao.GoodDao

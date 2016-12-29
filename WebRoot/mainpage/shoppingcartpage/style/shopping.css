@@ -1,0 +1,46 @@
+*{margin: 0px;padding: 0px}
+.container{border: 1px solid #6c207a;  width: 1000px;margin: 1px auto;padding: 2px 5px}
+.container>.top{width: 1000px;height: 50px;margin: 0px auto;background-color: #AEAEAE;padding-top: 2px}
+.top>.top_logo{font-size: 24px;font-weight: 600;margin-left: 22px;width: 283px;}
+.top>.top_logo img{width: 75px;height: 50px;vertical-align: middle;margin-right: 8px;margin-top: -4px;}
+.top>.top_logo>a{vertical-align: middle;text-decoration: none;color: white;}
+.top>.serach{line-height: 42px;margin-top:1px}
+.top>div{display: inline-block;}
+.top>.serach{margin-left: 132px;}
+.top>.serach>input{width: 244px;height: 30px;font-size: 16px;padding-left: 5px;}
+.top>.serach>button{width: 112px;height: 36px;}
+.top>.logstate>#loginorregist{width: 110px;height: 35px;margin-left: 54px;}
+.content{margin-top: 50px;border: 1px solid #2244cc;}
+.content>.detail{border :1px solid #e9e9e9;line-height: 40px;background-color: #F3F3F3}
+.content>.detail>span{font-size: 18px}
+.content>.detail>.gooddetil{margin-left: 140px;margin-right: 400px;}
+.content>.detail>.price{margin-right: 81px}
+.content>.detail>.count{margin-right: 88px}
+.content>.detail>.itemallprice{margin-right: 36px}
+.content>.content_title{font-family: 新宋体;font-size: 30px;margin: 50px auto 22px 16px;color: red;}
+.content .gooditem{font-size: 0px;border: 1px solid #cacbcb;line-height: 156px;margin: 8px auto;border: 1px solid #6c207a;}
+.content .gooditem>img{width: 128px;height: 138px;vertical-align: middle;margin-left: 18px}
+.content .gooditem>.goodinfo{font-size: 16px;width: 284px;line-height: 25px;height: 120px;display: inline-block;vertical-align: middle;padding-left: 5px}
+.content .gooditem>.pricevalue,.goodcount,.curallprice {font-size: 16px;line-height: 25px;width: 119px;height: 36px;display: inline-block;vertical-align: middle;text-align: center}
+.content .gooditem>.pricevalue{margin-left: 78px;}
+.content .gooditem>.checkitem{margin-left: 16px}
+.content .gooditem>.goodcount{margin-left: 9px;text-align: center;}
+.content .gooditem>.goodcount>.control{height: 20px;width: 88px;display: inline-block;padding: 0px;font-size: 0px}
+.content .gooditem>.goodcount a{-webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;text-decoration: none;display: inline-block;border: 1px solid #cacbcb;width: 19px;height: 22px;font-size: 12px;outline: none}
+.content .gooditem>.goodcount a:hover{cursor: pointer;}
+.content .gooditem>.goodcount>.control input{background-color:white;-webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;-webkit-rtl-ordering: logical;border: 1px solid #cacbcb;width: 46px;height: 22px;text-align: center}
+.content .gooditem>.goodcount>.control>.control_left{border-right: 0}
+.content .gooditem>.goodcount>.control>.control_right{border-left: 0}
+.content .gooditem>.curallprice{margin-left: 25px;width: 78px}
+.content .gooditem> button{width: 68px;height: 32px;margin-left: 10px;}
+.content .tips{border: 1px solid #e13157;height: 628px;text-align: center;line-height: 628px;font-size: 25px;color: #57E807;}
+.content .tips>a{text-decoration: none;color: #2244cc;font-weight: 600;}
+.content .goodstates{background-color: #fff;border-width: 1px 0;width: 100%;height: 50px;border: 1px solid #f0f0f0;position: fixed;bottom: 0px;left: 0px;box-shadow: 0 -1px 9px rgba(0,1,1,.08)}
+.content .goodstates>.statetools{margin: 0px auto;width: 800px;line-height: 50px}
+.content .goodstates>.statetools>div{display: inline-block}
+.content .goodstates>.statetools a{text-decoration: none}
+.content .goodstates>.statetools a:hover{cursor: pointer;}
+.content .goodstates>.statetools .money{color: red;font-size: 20px;font-weight: 600;margin: 0px 3px}
+.content .goodstates>.statetools>.gouxuanall{width: 50px;}
+.content .goodstates>.statetools .jiesuan{width: 96px;font-weight: 600;font-size: 20px;color: white;line-height: 49px;background-color: #E64346;display: inline-block;text-align: center;border: 1px solid #E64346;}
+.content .goodstates>.statetools .statetogo{float: right}

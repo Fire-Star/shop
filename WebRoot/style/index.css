@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;
+}
+h3{
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+.log_div,.log_by{
+    border-bottom: 1px solid #AEAEAE;
+    position: relative;
+    width: 300px;
+    padding: 50px 20px;
+}
+.nm,.pw {
+    margin: 5px 0;
+    size: 100px;width: 100%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ne_lo_con{
+    display: inline-block;
+}
+.ne_au_lo{
+    margin: 5px 5px 0;
+    float: left;
+}
+.forget_pw{
+    float: right;
+}
+.ne_lo_con{
+	margin-top:15px;
+    width: 100%;
+}
+.log{
+    outline-color: #2244cc;
+    background-color: #2b92d4;
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin: 20px 0;
+}
+label{
+    margin-bottom: 4px;
+}
+.log_by{
+    clear: both;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    margin: 0;
+    padding: 30px 20px;
+}
+.log_by > span{
+    display: block;
+    text-align: start;
+    margin-bottom: 11px;
+}
+.reg_a{
+    float: right;
+}
+.log_qq >img {
+    width: 32px;height: 32px;
+}
+.mai{
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    position: absolute;
+    right: 200px;top: 30px;
+}
+.all{
+    margin-top: 100px;
+    width: 100%;height: 600px;
+    background-color: #6c207a;
+    position: relative;
+}
+.ne_lo_con >input{
+    right: 10px;
+}
+.back{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.systemInfo,.usernameInfo,.passwordInfo{
+	color:red;
+}
+.systemInfo{
+	text-align:center;
+}

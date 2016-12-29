@@ -1,0 +1,12 @@
+.container{
+    margin: 200px auto;
+    text-align: center;
+}
+.mod{
+    display: inline-block;
+}
+.systemInfo{
+    color: #2244cc;
+    font-size: 30px;
+    font-weight: 600;
+}
